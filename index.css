@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(129, 131, 123);
+    color: black;
+    font-size: larger;
+    margin: 0;
+}
+.container{
+    border: 2px black;
+    width: 300px;
+    padding: 20px 100px 20px;
+    margin: 20px 100px 20px;
+    background-color:rgb(136, 148, 148) ;
+    border-radius: 50px;
+     text-align: center;
+     box-shadow: 10px 10px 00px;
+    
+}
+.container:hover{
+    box-shadow: 15px 15px 10px;
+   
+    
+}

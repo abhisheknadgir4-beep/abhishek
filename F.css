@@ -1,0 +1,56 @@
+
+body {
+    background-color: #c2faef;
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar img {
+    margin-right: 10px;
+}
+
+
+form img {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+div {
+    text-align: center;
+    margin: 30px 0;
+}
+
+div img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.buy-button {
+    margin-top: 10px;
+    padding: 10px 25px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    
+}
+.buy-button:hover {
+    background-color: #218838;
+}
+
+.products{
+    display: flex;
+    
+}
+.bike2{
+    padding: 20px;
+}
+.bike3{
+    padding: 10px;
+}
+.bike4{
+    padding: 15px;
+}

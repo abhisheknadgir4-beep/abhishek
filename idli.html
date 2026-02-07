@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Payment Page</title>
+    <link rel="stylesheet" href="pay.css">
+</head>
+<body>
+
+    <form action="order.html" method="get">
+        
+        <h2>Payment</h2>
+        <hr>
+
+        <label>Full Name:</label><br>
+        <input type="text" name="name" required><br><br>
+ 
+        <label>Email:</label><br>
+        <input type="email" name="email" placeholder="example@email.com" required><br><br>
+
+       
+ 
+        <label>Payment Method:</label><br>
+        <input type="radio" name="payment" value="card" checked> Card<br>
+        <input type="radio" name="payment" value="bank"> Bank<br>
+        <input type="radio" name="payment" value="upi"> UPI<br>
+        <input type="radio" name="payment" value="cash"> cash<br><br>
+          <a href="order.html">
+  <button class="buy-button" >BUY NOW</button>
+  </a>
+  
+
+        
+        
+    </form>
+
+</body>
+</html>

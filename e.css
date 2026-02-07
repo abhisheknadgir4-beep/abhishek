@@ -1,0 +1,36 @@
+body {
+    font-family: Arial;
+    background-color: rgb(166, 243, 240);
+}
+
+.container {
+    width: 320px;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(195, 209, 244);
+    border: 1px solid rgb(13, 9, 9);
+    border-radius: 6px;
+    box-shadow: 10px 10px 00px rgb(129, 129, 129);
+    text-decoration-color: rgb(125, 185, 237);
+}
+.container :hover{
+    box-shadow: rgb(95, 93, 93);
+}
+
+.container input {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    border: 1px solid gray;
+}
+
+button {
+    width: 100%;
+    height: 35px;
+    margin-top: 15px;
+    background-color: rgb(145, 183, 113);
+    color: rgb(246, 241, 241);
+    border: solid black;
+    font-size: 14px;
+}
